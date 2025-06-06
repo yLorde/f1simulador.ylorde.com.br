@@ -2,7 +2,6 @@ window.onload = function () {
     var tabelaQ1 = document.getElementById("tabela-q1");
     var tabelaQ2 = document.getElementById("tabela-q2");
     var tabelaQ3 = document.getElementById("tabela-q3");
-    var tabelaGrid = document.getElementById("tabela-grid");
     var tabelaGP = document.getElementById("tabela-gp");
 
     dados_q1.forEach(function (linha) {
@@ -30,15 +29,6 @@ window.onload = function () {
         novaLinhaQ3.insertCell().innerHTML = link.tempo;
         novaLinhaQ3.insertCell().innerHTML = link.diferenca;
         novaLinhaQ3.insertCell().innerHTML = link.voltas;
-    });
-
-    dados_grid.forEach(function (link) {
-        var novaLinhaGrid = tabelaGrid.insertRow();
-        novaLinhaGrid.insertCell().innerHTML = link.pos;
-        novaLinhaGrid.insertCell().innerHTML = link.piloto;
-        novaLinhaGrid.insertCell().innerHTML = link.tempo;
-        novaLinhaGrid.insertCell().innerHTML = link.diferenca;
-        novaLinhaGrid.insertCell().innerHTML = link.voltas;
     });
 
     dados_gp.forEach(function (link) {
