@@ -7,6 +7,6 @@ var dados_q2 = [
     { pos: 6, piloto: "Carlos Sainz", equipe: "Ferrari", tempo: "01:07.739", diferenca: "+4.423", voltas: '-' },
     { pos: 7, piloto: "Sebastian Vettel", equipe: "Ferrari", tempo: "01:07.937", diferenca: "+4.621", voltas: '-' },
     { pos: 8, piloto: "Fernando Alonso", equipe: "Ferrari", tempo: "01:08.129", diferenca: "+4.813", voltas: '-' },
-    { pos: 9, piloto: "Marvin Renchet", equipe: "RBR", tempo: "01:08.512", diferenca: "+5.196", voltas: '-' },
-    { pos: 10, piloto: "Sergio Perez", equipe: "RBR", tempo: "01:08.780", diferenca: "+5.464", voltas: '-' }
+    { pos: 9, piloto: "Sergio Perez", equipe: "RBR", tempo: "01:08.512", diferenca: "+5.196", voltas: '-' },
+    { pos: 10, piloto: "Pierre Gasly", equipe: "RBR", tempo: "01:08.780", diferenca: "+5.464", voltas: '-' }
 ];
