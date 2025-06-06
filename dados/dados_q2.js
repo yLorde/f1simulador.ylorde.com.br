@@ -10,3 +10,12 @@ var dados_q2 = [
     { pos: 9, piloto: "Sergio Perez", equipe: "RBR", tempo: "01:08.512", diferenca: "+5.196", voltas: '-' },
     { pos: 10, piloto: "Pierre Gasly", equipe: "RBR", tempo: "01:08.780", diferenca: "+5.464", voltas: '-' }
 ];
+
+
+var dados_corte_q2 = [
+    { pos: 11, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' },
+    { pos: 12, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' },
+    { pos: 13, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' },
+    { pos: 14, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' },
+    { pos: 15, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' }
+]

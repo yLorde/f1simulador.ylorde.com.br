@@ -1,5 +1,5 @@
 var dados_q1 = [
-    { pos: 1, piloto: "Felipe Massa", equipe: "Ferrari", tempo: "01:04.391", diferenca: "-" , voltas: '-' },
+    { pos: 1, piloto: "Felipe Massa", equipe: "Ferrari", tempo: "01:04.391", diferenca: "-", voltas: '-' },
     { pos: 2, piloto: "Sergio Perez", equipe: "RBR", tempo: "01:04.393", diferenca: "+0.002", voltas: '-' },
     { pos: 3, piloto: "Lord", equipe: "Sauber", tempo: "01:04.481", diferenca: "+0.090", voltas: '-' },
     { pos: 4, piloto: "Marvin Renchet", equipe: "RBR", tempo: "01:05.885", diferenca: "+1.494", voltas: '-' },
@@ -15,3 +15,11 @@ var dados_q1 = [
     { pos: 14, piloto: "Christopher Dubert", equipe: "Ferrari", tempo: "01:10.976", diferenca: "+6.585", voltas: '-' },
     { pos: 15, piloto: "Tamakoto Arai", equipe: "Ferrari", tempo: "01:12.226", diferenca: "+7.835", voltas: '-' }
 ];
+
+var dados_corte_q1 = [
+    { pos: 16, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' },
+    { pos: 17, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' },
+    { pos: 18, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' },
+    { pos: 19, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' },
+    { pos: 20, piloto: "-", equipe: "FIA", tempo: "-", diferenca: "-", voltas: '-' }
+]
