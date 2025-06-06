@@ -7,7 +7,7 @@ window.onload = function () {
     dados_q1.forEach(function (linha) {
         var novaLinhaQ1 = tabelaQ1.insertRow();
         novaLinhaQ1.insertCell().innerHTML = linha.pos;
-        novaLinhaQ1.insertCell().innerHTML = linha.piloto;
+        novaLinhaQ1.insertCell().innerHTML = linha.piloto + ` (${linha.equipe})`;
         novaLinhaQ1.insertCell().innerHTML = linha.tempo;
         novaLinhaQ1.insertCell().innerHTML = linha.diferenca;
         novaLinhaQ1.insertCell().innerHTML = linha.voltas;
@@ -16,7 +16,7 @@ window.onload = function () {
     dados_q2.forEach(function (link) {
         var novaLinhaQ2 = tabelaQ2.insertRow();
         novaLinhaQ2.insertCell().innerHTML = link.pos;
-        novaLinhaQ2.insertCell().innerHTML = link.piloto;
+        novaLinhaQ2.insertCell().innerHTML = link.piloto + ` (${link.equipe})`;
         novaLinhaQ2.insertCell().innerHTML = link.tempo;
         novaLinhaQ2.insertCell().innerHTML = link.diferenca;
         novaLinhaQ2.insertCell().innerHTML = link.voltas;
@@ -25,7 +25,7 @@ window.onload = function () {
     dados_q3.forEach(function (link) {
         var novaLinhaQ3 = tabelaQ3.insertRow();
         novaLinhaQ3.insertCell().innerHTML = link.pos;
-        novaLinhaQ3.insertCell().innerHTML = link.piloto;
+        novaLinhaQ3.insertCell().innerHTML = link.piloto + ` (${link.equipe})`;
         novaLinhaQ3.insertCell().innerHTML = link.tempo;
         novaLinhaQ3.insertCell().innerHTML = link.diferenca;
         novaLinhaQ3.insertCell().innerHTML = link.voltas;
@@ -34,7 +34,7 @@ window.onload = function () {
     dados_gp.forEach(function (link) {
         var novaLinhaGP = tabelaGP.insertRow();
         novaLinhaGP.insertCell().innerHTML = link.pos;
-        novaLinhaGP.insertCell().innerHTML = link.piloto;
+        novaLinhaGP.insertCell().innerHTML = link.piloto + ` (${link.equipe})`;
         novaLinhaGP.insertCell().innerHTML = link.tempo;
         novaLinhaGP.insertCell().innerHTML = link.diferenca;
         novaLinhaGP.insertCell().innerHTML = link.voltas;
